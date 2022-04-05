@@ -62,11 +62,12 @@
                 </tr>               
                  
             </table>
-            <asp:Wizard ID="Wizard1" runat="server" BackColor="#FFFBD6" BorderColor="#FFDFAD" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ActiveStepIndex="1" Width="569px" OnFinishButtonClick="Wizard1_FinishButtonClick">
-                <HeaderStyle BackColor="#FFCC66" BorderStyle="Solid" Font-Bold="True" Font-Size="0.9em" ForeColor="#333333" HorizontalAlign="Center" BorderColor="#FFFBD6" BorderWidth="2px" />
-                <NavigationButtonStyle BackColor="White" BorderColor="#CC9966" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" />
-                <SideBarButtonStyle ForeColor="White" />
-                <SideBarStyle BackColor="#990000" Font-Size="0.9em" VerticalAlign="Top" />
+            <asp:Wizard ID="Wizard1" runat="server" BackColor="#EFF3FB" BorderColor="#B5C7DE" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ActiveStepIndex="1" Width="569px" OnFinishButtonClick="Wizard1_FinishButtonClick">
+                <HeaderStyle BackColor="#284E98" BorderColor="#EFF3FB" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True" Font-Size="0.9em" ForeColor="White" HorizontalAlign="Center" />
+                <NavigationButtonStyle BackColor="White" BorderColor="#507CD1" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" />
+                <SideBarButtonStyle BackColor="#507CD1" Font-Names="Verdana" ForeColor="White" />
+                <SideBarStyle BackColor="#507CD1" Font-Size="0.9em" VerticalAlign="Top" />
+                <StepStyle Font-Size="0.8em" ForeColor="#333333" />
                 <WizardSteps>
                     <asp:WizardStep ID="WizardStep1" runat="server" Title="Query Flight Status">
                         <!--for step 1-->
