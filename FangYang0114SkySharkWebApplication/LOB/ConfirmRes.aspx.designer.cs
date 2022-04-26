@@ -33,13 +33,13 @@ namespace FangYang0114SkySharkWebApplication.LOB
         protected global::System.Web.UI.WebControls.Menu Menu1;
 
         /// <summary>
-        /// txtUser 控件。
+        /// Label1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtUser;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
         /// HyperLink1 控件。
@@ -60,13 +60,22 @@ namespace FangYang0114SkySharkWebApplication.LOB
         protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
 
         /// <summary>
-        /// Label5 控件。
+        /// lblMessage 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
+        /// Label2 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
         /// txtTNo 控件。
@@ -87,12 +96,21 @@ namespace FangYang0114SkySharkWebApplication.LOB
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
-        /// btnSubmit2 控件。
+        /// btnConfirm 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit2;
+        protected global::System.Web.UI.WebControls.Button btnConfirm;
+
+        /// <summary>
+        /// lblDetails 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDetails;
     }
 }

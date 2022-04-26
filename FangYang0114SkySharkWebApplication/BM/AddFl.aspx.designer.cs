@@ -60,6 +60,15 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.HyperLink HyperLink2;
 
         /// <summary>
+        /// lblMessage 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessage;
+
+        /// <summary>
         /// Label2 控件。
         /// </summary>
         /// <remarks>
@@ -105,6 +114,15 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.TextBox txtDepartureTime;
 
         /// <summary>
+        /// Calendar1 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+
+        /// <summary>
         /// RequiredFieldValidator2 控件。
         /// </summary>
         /// <remarks>
@@ -123,13 +141,13 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// txtPlace 控件。
+        /// txtOriginPlace 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPlace;
+        protected global::System.Web.UI.WebControls.TextBox txtOriginPlace;
 
         /// <summary>
         /// RequiredFieldValidator3 控件。
@@ -157,6 +175,15 @@ namespace FangYang0114SkySharkWebApplication.BM
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtArrivalTime;
+
+        /// <summary>
+        /// Calendar2 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Calendar Calendar2;
 
         /// <summary>
         /// RequiredFieldValidator4 控件。
@@ -231,13 +258,13 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// txtNumberEx 控件。
+        /// txtNoOfExecSeats 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumberEx;
+        protected global::System.Web.UI.WebControls.TextBox txtNoOfExecSeats;
 
         /// <summary>
         /// RequiredFieldValidator7 控件。
@@ -258,13 +285,13 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// txtExecutiveClassFares 控件。
+        /// txtExecFare 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtExecutiveClassFares;
+        protected global::System.Web.UI.WebControls.TextBox txtExecFare;
 
         /// <summary>
         /// RequiredFieldValidator8 控件。
@@ -285,13 +312,13 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// txtNumberofBus 控件。
+        /// txtNoOfBusiSeats 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumberofBus;
+        protected global::System.Web.UI.WebControls.TextBox txtNoOfBusiSeats;
 
         /// <summary>
         /// RequiredFieldValidator9 控件。
@@ -312,13 +339,13 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.Label Label11;
 
         /// <summary>
-        /// txtBusinessClassFares 控件。
+        /// txtBusiFare 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBusinessClassFares;
+        protected global::System.Web.UI.WebControls.TextBox txtBusiFare;
 
         /// <summary>
         /// RequiredFieldValidator10 控件。
@@ -330,21 +357,21 @@ namespace FangYang0114SkySharkWebApplication.BM
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator10;
 
         /// <summary>
-        /// Button1 控件。
+        /// btnSubmit 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
-        /// Button2 控件。
+        /// btnCancle 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnCancle;
     }
 }
